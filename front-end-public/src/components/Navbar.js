@@ -6,6 +6,7 @@ function Navbar() {
   return (
     <div className='main-nav'>
       <LogoCircular/>
+      <div class="position-absolute top-10 bottom-50 end-0">
       <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">Navbar</a>
@@ -34,9 +35,11 @@ function Navbar() {
           </ul>
         </li>
       </ul>
+      
     </div>
   </div>
 </nav>
+</div>
     </div>
   )
 }
