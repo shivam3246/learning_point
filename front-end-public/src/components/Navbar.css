@@ -1,0 +1,8 @@
+.main-nav{
+    min-height: 30vh;
+    width: 100%;
+    background-color: aquamarine;
+    border-bottom-left-radius: 50% ;
+    border-bottom-right-radius: 50% ;
+
+}
